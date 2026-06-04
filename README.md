@@ -1,8 +1,10 @@
 # RAGT-EDHS
-# Main Experimental Results
-Dataset	ACC	SEN	SPE	F1	AUC
-ABIDE I	75.02±2.36	74.11±8.74	74.54±9.46	74.62±5.34	78.94±2.34
-ABIDE II	73.10±4.56	78.78±9.91	64.35±9.16	77.05±5.09	71.19±5.52
+# Experimental Results
+Performance metrics (mean ± std, %) of our full RAGT-EDHS model:
+ABIDE I Dataset:
+ACC = 75.02±2.36, SEN = 74.11±8.74, SPE = 74.54±9.46, F1 = 74.62±5.34, AUC = 78.94±2.34
+ABIDE II Dataset:
+ACC = 73.10±4.56, SEN = 78.78±9.91, SPE = 64.35±9.16, F1 = 77.05±5.09, AUC = 71.19±5.52
 # Dependencies
 - python==3.11.10
 - torch==2.1.0+cu118
